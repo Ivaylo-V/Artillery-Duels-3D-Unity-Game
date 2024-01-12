@@ -85,8 +85,6 @@ public class ButtonManager : MonoBehaviour
         cam.GetComponent<cameraMovement>().enabled = true;
         cam.GetComponent<AudioListener>().enabled = true;
         GameObject.Find($"{selected.name}/Selection").gameObject.GetComponent<MeshRenderer>().enabled = false;
-
-
     }
 
     public void moveClick()
